@@ -1,0 +1,18 @@
+****************************************2020-07-07 22:22:49****************************************
+[Errno 21] Is a directory: 'attach_files/'
+Traceback (most recent call last):
+  File "main.py", line 44, in <module>
+    picture_attaches = [Picture_Attach.uploadPicture("attach_files/" + pic,'') for pic in attach_pictures]
+  File "main.py", line 44, in <listcomp>
+    picture_attaches = [Picture_Attach.uploadPicture("attach_files/" + pic,'') for pic in attach_pictures]
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Picture_Attach.py", line 11, in uploadPicture
+    fp = open(path, 'rb')
+IsADirectoryError: [Errno 21] Is a directory: 'attach_files/'
+************************************************************************************************************
+****************************************2020-07-08 23:25:14****************************************
+int() argument must be a string, a bytes-like object or a number, not 'list'
+Traceback (most recent call last):
+  File "main.py", line 52, in <module>
+    socks_ip[num] = int(socks_ip[num])
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+************************************************************************************************************

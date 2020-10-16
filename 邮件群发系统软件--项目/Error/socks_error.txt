@@ -1,0 +1,18 @@
+
+使用代理ip：103.12.150.254出错，错误信息：getsockaddrarg: port must be 0-65535.
+Traceback (most recent call last):
+  File "main.py", line 271, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,content,touser,picture_attaches,pdf_attaches,(proxies[1],proxies[2]))
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 66, in sendEmail
+    smtpObj.connect(mail_host, hostport)    #qq:465,163:25
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/Users/hylan/anaconda3/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/socks.py", line 100, in wrapper
+    return function(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/socks.py", line 832, in connect
+    super(socksocket, self).connect(proxy_addr)
+OverflowError: getsockaddrarg: port must be 0-65535.

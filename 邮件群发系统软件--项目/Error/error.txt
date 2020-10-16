@@ -1,0 +1,1619 @@
+**************************************************2020-07-05 17:30:47**************************************************
+Connection unexpectedly closed: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2309)
+Traceback (most recent call last):
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 387, in getreply
+    line = self.file.readline(_MAXLINE + 1)
+  File "/Users/hylan/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/hylan/anaconda3/lib/python3.6/ssl.py", line 1012, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/hylan/anaconda3/lib/python3.6/ssl.py", line 874, in read
+    return self._sslobj.read(len, buffer)
+  File "/Users/hylan/anaconda3/lib/python3.6/ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2309)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 199, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,content_class,tousers,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 59, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 872, in sendmail
+    (code, resp) = self.rcpt(each, rcpt_options)
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 543, in rcpt
+    return self.getreply()
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 391, in getreply
+    + str(e))
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2309)
+***********************************************************************************************************************
+####################2020-07-05 17:33:59软件log存储路径配置确认OK。####################
+**************************************************2020-07-05 17:34:06**************************************************
+Connection unexpectedly closed: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2309)
+Traceback (most recent call last):
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 387, in getreply
+    line = self.file.readline(_MAXLINE + 1)
+  File "/Users/hylan/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/hylan/anaconda3/lib/python3.6/ssl.py", line 1012, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/hylan/anaconda3/lib/python3.6/ssl.py", line 874, in read
+    return self._sslobj.read(len, buffer)
+  File "/Users/hylan/anaconda3/lib/python3.6/ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2309)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 199, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,content_class,tousers,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 59, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 872, in sendmail
+    (code, resp) = self.rcpt(each, rcpt_options)
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 543, in rcpt
+    return self.getreply()
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 391, in getreply
+    + str(e))
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2309)
+***********************************************************************************************************************
+**************************************************2020-07-05 17:35:35**************************************************
+Connection unexpectedly closed: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2309)
+Traceback (most recent call last):
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 387, in getreply
+    line = self.file.readline(_MAXLINE + 1)
+  File "/Users/hylan/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/hylan/anaconda3/lib/python3.6/ssl.py", line 1012, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/hylan/anaconda3/lib/python3.6/ssl.py", line 874, in read
+    return self._sslobj.read(len, buffer)
+  File "/Users/hylan/anaconda3/lib/python3.6/ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+ssl.SSLError: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2309)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 199, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,content_class,tousers,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 59, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 872, in sendmail
+    (code, resp) = self.rcpt(each, rcpt_options)
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 543, in rcpt
+    return self.getreply()
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 391, in getreply
+    + str(e))
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed: [SSL: KRB5_S_TKT_NYV] unexpected eof while reading (_ssl.c:2309)
+***********************************************************************************************************************
+####################2020-07-05 17:38:26软件log存储路径配置确认OK。####################
+####################2020-07-05 17:40:33软件log存储路径配置确认OK。####################
+####################2020-07-05 17:46:56软件log存储路径配置确认OK。####################
+**************************************************2020-07-05 17:47:05**************************************************
+Connection unexpectedly closed
+Traceback (most recent call last):
+  File "main.py", line 199, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,content_class,tousers,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 59, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 872, in sendmail
+    (code, resp) = self.rcpt(each, rcpt_options)
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 543, in rcpt
+    return self.getreply()
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 394, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+***********************************************************************************************************************
+####################2020-07-05 17:54:41软件log存储路径配置确认OK。####################
+####################2020-07-05 18:01:50软件log存储路径配置确认OK。####################
+**************************************************2020-07-05 18:01:59**************************************************
+Connection unexpectedly closed
+Traceback (most recent call last):
+  File "main.py", line 199, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,content_class,tousers,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 59, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 872, in sendmail
+    (code, resp) = self.rcpt(each, rcpt_options)
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 543, in rcpt
+    return self.getreply()
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 394, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+***********************************************************************************************************************
+####################2020-07-05 18:04:55软件log存储路径配置确认OK。####################
+**************************************************2020-07-05 18:04:57**************************************************
+Connection unexpectedly closed
+Traceback (most recent call last):
+  File "main.py", line 199, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,content_class,tousers,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 59, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 872, in sendmail
+    (code, resp) = self.rcpt(each, rcpt_options)
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 543, in rcpt
+    return self.getreply()
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 394, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+***********************************************************************************************************************
+####################2020-07-05 22:23:07软件log存储路径配置确认OK。####################
+**************************************************2020-07-05 22:24:18**************************************************
+list index out of range
+Traceback (most recent call last):
+  File "main.py", line 126, in <module>
+    if user_monitor[user]['Last_SendTime'] == '' or (Time_Deal.time.time() - user_monitor[user]['Last_SendTime'] >= user_monitor[user]['TimeGap_Lists'][0]) :
+IndexError: list index out of range
+***********************************************************************************************************************
+####################2020-07-05 22:30:31软件log存储路径配置确认OK。####################
+####################2020-07-07 13:10:11软件log存储路径配置确认OK。####################
+####################2020-07-07 22:25:35软件log存储路径配置确认OK。####################
+**************************************************2020-07-07 22:26:25**************************************************
+'float' object has no attribute 'encode'
+Traceback (most recent call last):
+  File "main.py", line 143, in <module>
+    touser = [formataddr([customs_one[1],customs_one[2]])]
+  File "/Users/hylan/anaconda3/lib/python3.6/email/utils.py", line 94, in formataddr
+    name.encode('ascii')
+AttributeError: 'float' object has no attribute 'encode'
+***********************************************************************************************************************
+####################2020-07-07 22:41:15软件log存储路径配置确认OK。####################
+####################2020-07-07 22:53:31软件log存储路径配置确认OK。####################
+####################2020-07-08 22:47:21软件log存储路径配置确认OK。####################
+**************************************************2020-07-08 22:47:29**************************************************
+name 'e' is not defined
+Traceback (most recent call last):
+  File "main.py", line 335, in <module>
+    Functions.Record_CSV(file_records[1],[Failed_Number,Fail_Time,IP,user,person_count,mail_fail,'Failed！',str(e),'1对多发件！'])
+NameError: name 'e' is not defined
+***********************************************************************************************************************
+####################2020-07-08 22:51:04软件log存储路径配置确认OK。####################
+####################2020-07-08 23:13:52软件log存储路径配置确认OK。####################
+**************************************************2020-07-08 23:14:02**************************************************
+name 'e' is not defined
+Traceback (most recent call last):
+  File "main.py", line 279, in <module>
+    Functions.Record_CSV(file_records[1],[Failed_Number,Time_Deal.getTimeNow(),"all socks ip",user,person_count,customs_one[2],'Failed！',str(e),'1对1发件！'])
+NameError: name 'e' is not defined
+***********************************************************************************************************************
+####################2020-07-08 23:20:24软件log存储路径配置确认OK。####################
+**************************************************2020-07-08 23:20:25**************************************************
+name 'e' is not defined
+Traceback (most recent call last):
+  File "main.py", line 281, in <module>
+    Functions.Record_CSV(file_records[1],[Failed_Number,Time_Deal.getTimeNow(),"all socks ip",user,person_count,customs_one[2],'Failed！',str(e),'1对1发件！'])
+NameError: name 'e' is not defined
+***********************************************************************************************************************
+####################2020-07-08 23:26:51软件log存储路径配置确认OK。####################
+####################2020-07-08 23:34:51软件log存储路径配置确认OK。####################
+**************************************************2020-07-08 23:38:56**************************************************
+name 'e' is not defined
+Traceback (most recent call last):
+  File "main.py", line 283, in <module>
+    Functions.Record_CSV(file_records[1],[Failed_Number,Time_Deal.getTimeNow(),"all socks ip",user,person_count,customs_one[2],'Failed！',str(e),'1对1发件！'])
+NameError: name 'e' is not defined
+***********************************************************************************************************************
+####################2020-07-10 21:54:12软件log存储路径配置确认OK。####################
+####################2020-07-10 22:21:25软件log存储路径配置确认OK。####################
+**************************************************2020-07-10 22:22:33**************************************************
+name 'e' is not defined
+Traceback (most recent call last):
+  File "main.py", line 283, in <module>
+    Functions.Record_CSV(file_records[1],[Failed_Number,Time_Deal.getTimeNow(),"all socks ip",user,person_count,customs_one[2],'Failed！',str(e),'1对1发件！'])
+NameError: name 'e' is not defined
+***********************************************************************************************************************
+####################2020-07-10 22:24:05软件log存储路径配置确认OK。####################
+####################2020-07-11 09:46:25软件log存储路径配置确认OK。####################
+####################2020-07-11 10:55:07软件log存储路径配置确认OK。####################
+####################2020-07-11 10:59:04软件log存储路径配置确认OK。####################
+####################2020-07-11 11:10:38软件log存储路径配置确认OK。####################
+####################2020-07-11 13:13:46软件log存储路径配置确认OK。####################
+####################2020-07-12 13:51:29软件log存储路径配置确认OK。####################
+####################2020-07-12 23:32:04软件log存储路径配置确认OK。####################
+**************************************************2020-07-12 23:32:42**************************************************
+Connection unexpectedly closed
+Traceback (most recent call last):
+  File "main.py", line 198, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,tousers,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 58, in sendEmail
+    smtpObj.connect(mail_host, hostport)    #qq:465,163:25
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 338, in connect
+    (code, msg) = self.getreply()
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 394, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+***********************************************************************************************************************
+####################2020-07-12 23:34:11软件log存储路径配置确认OK。####################
+####################2020-07-19 08:36:56软件log存储路径配置确认OK。####################
+####################2020-07-19 08:41:33软件log存储路径配置确认OK。####################
+####################2020-07-21 21:30:14软件log存储路径配置确认OK。####################
+**************************************************2020-07-21 21:30:31**************************************************
+(554, b'DT:SPM 163 smtp9,DcCowAAXb4_v7RZfGRUFKQ--.63744S2 1595338224,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp9&time=1595338224')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 888, in sendmail
+    raise SMTPDataError(code, resp)
+smtplib.SMTPDataError: (554, b'DT:SPM 163 smtp9,DcCowAAXb4_v7RZfGRUFKQ--.63744S2 1595338224,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp9&time=1595338224')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:30:31**************************************************
+(554, b'DT:SPM 163 smtp12,EMCowACHiBTw7RZfYBjmNg--.29866S2 1595338224,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp12&time=1595338224')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 888, in sendmail
+    raise SMTPDataError(code, resp)
+smtplib.SMTPDataError: (554, b'DT:SPM 163 smtp12,EMCowACHiBTw7RZfYBjmNg--.29866S2 1595338224,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp12&time=1595338224')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:30:31**************************************************
+(554, b'DT:SPM 163 smtp12,EMCowADHqAzw7RZfdRjmNg--.37303S2 1595338225,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp12&time=1595338225')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 888, in sendmail
+    raise SMTPDataError(code, resp)
+smtplib.SMTPDataError: (554, b'DT:SPM 163 smtp12,EMCowADHqAzw7RZfdRjmNg--.37303S2 1595338225,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp12&time=1595338225')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:31:06**************************************************
+(554, b'DT:SPM 163 smtp13,EcCowAB3fS8T7hZfexyvNw--.54519S2 1595338259,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp13&time=1595338259')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 888, in sendmail
+    raise SMTPDataError(code, resp)
+smtplib.SMTPDataError: (554, b'DT:SPM 163 smtp13,EcCowAB3fS8T7hZfexyvNw--.54519S2 1595338259,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp13&time=1595338259')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:31:07**************************************************
+(554, b'DT:SPM 163 smtp8,DMCowADHA_UU7hZf+T11FA--.62212S2 1595338260,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp8&time=1595338260')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 888, in sendmail
+    raise SMTPDataError(code, resp)
+smtplib.SMTPDataError: (554, b'DT:SPM 163 smtp8,DMCowADHA_UU7hZf+T11FA--.62212S2 1595338260,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp8&time=1595338260')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:31:09**************************************************
+(554, b'DT:SPM 163 smtp14,EsCowADn9cIW7hZfW5GMFQ--.45745S2 1595338263,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp14&time=1595338263')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 888, in sendmail
+    raise SMTPDataError(code, resp)
+smtplib.SMTPDataError: (554, b'DT:SPM 163 smtp14,EsCowADn9cIW7hZfW5GMFQ--.45745S2 1595338263,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp14&time=1595338263')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:31:41**************************************************
+(554, b'DT:SPM 163 smtp12,EMCowABn+EA27hZfzTbmNg--.17549S2 1595338294,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp12&time=1595338294')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 888, in sendmail
+    raise SMTPDataError(code, resp)
+smtplib.SMTPDataError: (554, b'DT:SPM 163 smtp12,EMCowABn+EA27hZfzTbmNg--.17549S2 1595338294,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp12&time=1595338294')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:31:43**************************************************
+(554, b'DT:SPM 163 smtp7,C8CowABXKpk47hZf9zkjAg--.6518S2 1595338296,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp7&time=1595338296')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 888, in sendmail
+    raise SMTPDataError(code, resp)
+smtplib.SMTPDataError: (554, b'DT:SPM 163 smtp7,C8CowABXKpk47hZf9zkjAg--.6518S2 1595338296,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp7&time=1595338296')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:31:47**************************************************
+(554, b'DT:SPM 163 smtp10,DsCowAB3TbQ87hZfGzDlCA--.7533S2 1595338300,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp10&time=1595338300')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 888, in sendmail
+    raise SMTPDataError(code, resp)
+smtplib.SMTPDataError: (554, b'DT:SPM 163 smtp10,DsCowAB3TbQ87hZfGzDlCA--.7533S2 1595338300,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp10&time=1595338300')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:32:17**************************************************
+(554, b'DT:SPM 163 smtp9,DcCowABXvgZZ7hZf0j4FKQ--.29879S2 1595338330,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp9&time=1595338330')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 888, in sendmail
+    raise SMTPDataError(code, resp)
+smtplib.SMTPDataError: (554, b'DT:SPM 163 smtp9,DcCowABXvgZZ7hZf0j4FKQ--.29879S2 1595338330,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp9&time=1595338330')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:32:19**************************************************
+(554, b'DT:SPM 163 smtp14,EsCowADni6Fc7hZf_bOMFQ--.45003S2 1595338332,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp14&time=1595338332')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 888, in sendmail
+    raise SMTPDataError(code, resp)
+smtplib.SMTPDataError: (554, b'DT:SPM 163 smtp14,EsCowADni6Fc7hZf_bOMFQ--.45003S2 1595338332,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp14&time=1595338332')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:32:25**************************************************
+(554, b'DT:SPM 163 smtp8,DMCowAD3v99i7hZf13V1FA--.62699S2 1595338338,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp8&time=1595338338')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 888, in sendmail
+    raise SMTPDataError(code, resp)
+smtplib.SMTPDataError: (554, b'DT:SPM 163 smtp8,DMCowAD3v99i7hZf13V1FA--.62699S2 1595338338,please see http://mail.163.com/help/help_spam_16.htm?ip=117.150.165.163&hostid=smtp8&time=1595338338')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:32:52**************************************************
+(554, b'MI:SPB UserReject 0,smtp13,EcCowAC3xz997hZfNGKvNw--.29037S2 1595338365,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp13,EcCowAC3xz997hZfNGKvNw--.29037S2 1595338365,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:32:54**************************************************
+(554, b'MI:SPB UserReject 0,smtp12,EMCowAD3zgJ_7hZfx1nmNg--.21110S2 1595338368,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp12,EMCowAD3zgJ_7hZfx1nmNg--.21110S2 1595338368,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:33:02**************************************************
+(554, b'MI:SPB UserReject 0,smtp10,DsCowABXzbGI7hZfv2XlCA--.54314S2 1595338376,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp10,DsCowABXzbGI7hZfv2XlCA--.54314S2 1595338376,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:33:28**************************************************
+(554, b'MI:SPB UserReject 0,smtp9,DcCowAAnm5Sg7hZflFsFKQ--.27506S2 1595338401,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp9,DcCowAAnm5Sg7hZflFsFKQ--.27506S2 1595338401,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:33:30**************************************************
+(554, b'MI:SPB UserReject 0,smtp14,EsCowABHrraj7hZfOtiMFQ--.46592S2 1595338403,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp14,EsCowABHrraj7hZfOtiMFQ--.46592S2 1595338403,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:33:40**************************************************
+(554, b'MI:SPB UserReject 0,smtp8,DMCowADnSWit7hZfYKh1FA--.62759S2 1595338413,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp8,DMCowADnSWit7hZfYKh1FA--.62759S2 1595338413,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:34:03**************************************************
+(554, b'MI:SPB UserReject 0,smtp12,EMCowAAnBwvE7hZfPnTmNg--.40710S2 1595338436,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp12,EMCowAAnBwvE7hZfPnTmNg--.40710S2 1595338436,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:34:07**************************************************
+(554, b'MI:SPB UserReject 0,smtp9,DcCowACHPtrH7hZfdWwFKQ--.27096S2 1595338440,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp9,DcCowACHPtrH7hZfdWwFKQ--.27096S2 1595338440,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:34:18**************************************************
+(554, b'MI:SPB UserReject 0,smtp7,C8CowABnsajT7hZfgJAjAg--.6381S2 1595338451,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp7,C8CowABnsajT7hZfgJAjAg--.6381S2 1595338451,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:34:39**************************************************
+(554, b'MI:SPB UserReject 0,smtp9,DcCowADHFrfn7hZfi3gFKQ--.27414S2 1595338472,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp9,DcCowADHFrfn7hZfi3gFKQ--.27414S2 1595338472,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:34:43**************************************************
+(554, b'MI:SPB UserReject 0,smtp12,EMCowAAXHjLs7hZf7InmNg--.23414S2 1595338476,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp12,EMCowAAXHjLs7hZf7InmNg--.23414S2 1595338476,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:34:55**************************************************
+(554, b'MI:SPB UserReject 0,smtp8,DMCowAAHWmj47hZfANl1FA--.65382S2 1595338489,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp8,DMCowAAHWmj47hZfANl1FA--.65382S2 1595338489,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:35:16**************************************************
+(554, b'MI:SPB UserReject 0,smtp9,DcCowACnryMM7xZf1IYFKQ--.28977S2 1595338509,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp9,DcCowACnryMM7xZf1IYFKQ--.28977S2 1595338509,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:35:19**************************************************
+(554, b'MI:SPB UserReject 0,smtp12,EMCowAB3bxMQ7xZfH57mNg--.32262S2 1595338512,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp12,EMCowAB3bxMQ7xZfH57mNg--.32262S2 1595338512,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:35:33**************************************************
+(554, b'MI:SPB UserReject 0,smtp14,EsCowABnyqAe7xZfgA+NFQ--.45022S2 1595338526,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp14,EsCowABnyqAe7xZfgA+NFQ--.45022S2 1595338526,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:35:51**************************************************
+(554, b'MI:SPB UserReject 0,smtp10,DsCowADH9vIw7xZf48XlCA--.8967S2 1595338545,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp10,DsCowADH9vIw7xZf48XlCA--.8967S2 1595338545,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:35:55**************************************************
+(554, b'MI:SPB UserReject 0,smtp11,D8CowACnQ8007xZfTOHzBw--.60S2 1595338548,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp11,D8CowACnQ8007xZfTOHzBw--.60S2 1595338548,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:36:10**************************************************
+(554, b'MI:SPB UserReject 0,smtp13,EcCowAD3RD5E7xZfUuSvNw--.3004S2 1595338564,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp13,EcCowAD3RD5E7xZfUuSvNw--.3004S2 1595338564,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:36:26**************************************************
+(554, b'MI:SPB UserReject 0,smtp13,EcCowABXJDZT7xZfueyvNw--.29880S2 1595338580,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp13,EcCowABXJDZT7xZfueyvNw--.29880S2 1595338580,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:36:31**************************************************
+(554, b'MI:SPB UserReject 0,smtp13,EcCowAC3ijxY7xZfAO+vNw--.32791S2 1595338584,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp13,EcCowAC3ijxY7xZfAO+vNw--.32791S2 1595338584,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:36:48**************************************************
+(554, b'MI:SPB UserReject 0,smtp13,EcCowAAX0yRp7xZfqvqvNw--.25714S2 1595338602,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp13,EcCowAAX0yRp7xZfqvqvNw--.25714S2 1595338602,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:37:01**************************************************
+(554, b'MI:SPB UserReject 0,smtp13,EcCowAA3Kz137xZf+gWwNw--.29540S2 1595338615,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp13,EcCowAA3Kz137xZf+gWwNw--.29540S2 1595338615,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:37:06**************************************************
+(554, b'MI:SPB UserReject 0,smtp13,EcCowADn9_987xZf0QmwNw--.2391S2 1595338620,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp13,EcCowADn9_987xZf0QmwNw--.2391S2 1595338620,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:37:26**************************************************
+(554, b'MI:SPB UserReject 0,smtp13,EcCowAAXHkaP7xZfXBOwNw--.29979S2 1595338639,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp13,EcCowAAXHkaP7xZfXBOwNw--.29979S2 1595338639,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:37:36**************************************************
+(554, b'MI:SPB UserReject 0,smtp13,EcCowABnIEya7xZf3xewNw--.1518S2 1595338650,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp13,EcCowABnIEya7xZf3xewNw--.1518S2 1595338650,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:37:42**************************************************
+(554, b'MI:SPB UserReject 0,smtp13,EcCowAAXJ0ef7xZfChuwNw--.62888S2 1595338655,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp13,EcCowAAXJ0ef7xZfChuwNw--.62888S2 1595338655,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:38:04**************************************************
+(554, b'MI:SPB UserReject 0,smtp10,DsCowAB3_fG17xZf1R3mCA--.9904S2 1595338677,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp10,DsCowAB3_fG17xZf1R3mCA--.9904S2 1595338677,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:38:11**************************************************
+(554, b'MI:SPB UserReject 0,smtp11,D8CowABXnM297xZfySb0Bw--.64307S2 1595338685,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp11,D8CowABXnM297xZfySb0Bw--.64307S2 1595338685,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:38:19**************************************************
+(554, b'MI:SPB UserReject 0,smtp12,EMCowADn5irK7xZf1_zmNg--.21652S2 1595338699,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp12,EMCowADn5irK7xZf1_zmNg--.21652S2 1595338699,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:38:41**************************************************
+(554, b'MI:SPB UserReject 0,smtp13,EcCowADHoTvh7xZf806wNw--.29951S2 1595338721,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp13,EcCowADHoTvh7xZf806wNw--.29951S2 1595338721,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:38:46**************************************************
+(554, b'MI:SPB UserReject 0,smtp12,EMCowADXsATm7xZfSQnnNg--.39204S2 1595338726,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp12,EMCowADXsATm7xZfSQnnNg--.39204S2 1595338726,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:38:54**************************************************
+(554, b'MI:SPB UserReject 0,smtp8,DMCowAB3vGnu7xZfeoN2FA--.62342S2 1595338734,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp8,DMCowAB3vGnu7xZfeoN2FA--.62342S2 1595338734,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:39:19**************************************************
+(554, b'MI:SPB UserReject 0,smtp10,DsCowADH9vIH8BZffEDmCA--.9087S2 1595338759,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp10,DsCowADH9vIH8BZffEDmCA--.9087S2 1595338759,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:39:23**************************************************
+(554, b'MI:SPB UserReject 0,smtp9,DcCowACHpXUJ8BZf0u0FKQ--.28691S2 1595338762,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp9,DcCowACHpXUJ8BZf0u0FKQ--.28691S2 1595338762,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:39:30**************************************************
+(554, b'MI:SPB UserReject 0,smtp11,D8CowAAXOswS8BZf91n0Bw--.64650S2 1595338770,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp11,D8CowAAXOswS8BZf91n0Bw--.64650S2 1595338770,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:39:57**************************************************
+(554, b'MI:SPB UserReject 0,smtp12,EMCowAA34EAs8BZf6CbnNg--.17389S2 1595338797,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp12,EMCowAA34EAs8BZf6CbnNg--.17389S2 1595338797,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:39:59**************************************************
+(554, b'MI:SPB UserReject 0,smtp9,DcCowAA3VCAt8BZfHfwFKQ--.27872S2 1595338798,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp9,DcCowAA3VCAt8BZfHfwFKQ--.27872S2 1595338798,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:40:06**************************************************
+(554, b'MI:SPB UserReject 0,smtp8,DMCowAAXk_Q28BZf9Z92FA--.64722S2 1595338806,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp8,DMCowAAXk_Q28BZf9Z92FA--.64722S2 1595338806,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:40:35**************************************************
+(554, b'MI:SPB UserReject 0,smtp10,DsCowABnVPlT8BZfBmfmCA--.5284S2 1595338835,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp10,DsCowABnVPlT8BZfBmfmCA--.5284S2 1595338835,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:40:35**************************************************
+(554, b'MI:SPB UserReject 0,smtp10,DsCowAB3I_hT8BZfGmfmCA--.6684S2 1595338835,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp10,DsCowAB3I_hT8BZfGmfmCA--.6684S2 1595338835,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:40:42**************************************************
+(554, b'MI:SPB UserReject 0,smtp8,DMCowABnNWpa8BZf17Z2FA--.65053S2 1595338842,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp8,DMCowABnNWpa8BZf17Z2FA--.65053S2 1595338842,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:41:10**************************************************
+(554, b'MI:SPB UserReject 0,smtp12,EMCowAB3AEF28BZf307nNg--.16128S2 1595338870,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp12,EMCowAB3AEF28BZf307nNg--.16128S2 1595338870,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:41:15**************************************************
+(554, b'MI:SPB UserReject 0,smtp9,DcCowABXbnZ58BZfNBwGKQ--.29993S2 1595338874,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp9,DcCowABXbnZ58BZfNBwGKQ--.29993S2 1595338874,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:41:18**************************************************
+(554, b'MI:SPB UserReject 0,smtp11,D8CowAAH9c198BZf6Kj0Bw--.1954S2 1595338878,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp11,D8CowAAH9c198BZf6Kj0Bw--.1954S2 1595338878,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:41:45**************************************************
+(554, b'MI:SPB UserReject 0,smtp10,DsCowADHp_OZ8BZfuozmCA--.4254S2 1595338905,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp10,DsCowADHp_OZ8BZfuozmCA--.4254S2 1595338905,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:41:52**************************************************
+(554, b'MI:SPB UserReject 0,smtp8,DMCowAD3gvSg8BZf89J2FA--.63204S2 1595338912,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp8,DMCowAD3gvSg8BZf89J2FA--.63204S2 1595338912,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:41:54**************************************************
+(554, b'MI:SPB UserReject 0,smtp12,EMCowACnoCSh8BZfrGPnNg--.19285S2 1595338914,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp12,EMCowACnoCSh8BZfrGPnNg--.19285S2 1595338914,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:42:21**************************************************
+(554, b'MI:SPB UserReject 0,smtp10,DsCowAC3bdq88BZfV6vmCA--.33178S2 1595338941,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp10,DsCowAC3bdq88BZfV6vmCA--.33178S2 1595338941,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:42:29**************************************************
+(554, b'MI:SPB UserReject 0,smtp12,EMCowAAHShbF8BZfpXXnNg--.20692S2 1595338949,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp12,EMCowAAHShbF8BZfpXXnNg--.20692S2 1595338949,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:42:30**************************************************
+(554, b'MI:SPB UserReject 0,smtp12,EMCowADnvvrG8BZf73XnNg--.22302S2 1595338950,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp12,EMCowADnvvrG8BZf73XnNg--.22302S2 1595338950,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:42:56**************************************************
+(554, b'MI:SPB UserReject 0,smtp10,DsCowABXtvrg8BZfv8nmCA--.10028S2 1595338976,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp10,DsCowABXtvrg8BZfv8nmCA--.10028S2 1595338976,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:43:05**************************************************
+(554, b'MI:SPB UserReject 0,smtp8,DMCowACH0_Tp8BZfpvh2FA--.60921S2 1595338985,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp8,DMCowACH0_Tp8BZfpvh2FA--.60921S2 1595338985,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:43:10**************************************************
+(554, b'MI:SPB UserReject 0,smtp9,DcCowAAnjPHr8BZfw0sGKQ--.63362S2 1595338989,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp9,DcCowAAnjPHr8BZfw0sGKQ--.63362S2 1595338989,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:43:31**************************************************
+(554, b'MI:SPB UserReject 0,smtp8,DMCowADXymgD8RZf9Ax3FA--.64141S2 1595339011,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp8,DMCowADXymgD8RZf9Ax3FA--.64141S2 1595339011,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:44:09**************************************************
+(554, b'MI:SPB UserReject 0,smtp12,EMCowADn6S0N8RZfWpbnNg--.23063S2 1595339021,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp12,EMCowADn6S0N8RZfWpbnNg--.23063S2 1595339021,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:44:09**************************************************
+(554, b'MI:SPB UserReject 0,smtp10,DsCowADXlbQp8RZfNvrmCA--.9034S2 1595339049,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp10,DsCowADXlbQp8RZfNvrmCA--.9034S2 1595339049,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:44:11**************************************************
+(554, b'MI:SPB UserReject 0,smtp8,DMCowADnE_Uq8RZf_ih3FA--.59767S2 1595339051,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp8,DMCowADnE_Uq8RZf_ih3FA--.59767S2 1595339051,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:44:45**************************************************
+(554, b'MI:SPB UserReject 0,smtp12,EMCowAA3Vy9M8RZfTbfnNg--.30679S2 1595339085,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp12,EMCowAA3Vy9M8RZfTbfnNg--.30679S2 1595339085,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:44:48**************************************************
+(554, b'MI:SPB UserReject 0,smtp9,DcCowABXJtpN8RZfnnUGKQ--.27790S2 1595339087,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp9,DcCowABXJtpN8RZfnnUGKQ--.27790S2 1595339087,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:44:48**************************************************
+(554, b'MI:SPB UserReject 0,smtp11,D8CowACXq7hQ8RZfCBf1Bw--.60031S2 1595339088,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp11,D8CowACXq7hQ8RZfCBf1Bw--.60031S2 1595339088,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:45:20**************************************************
+(554, b'MI:SPB UserReject 0,smtp8,DMCowABHC2lw8RZfB093FA--.62084S2 1595339120,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp8,DMCowABHC2lw8RZfB093FA--.62084S2 1595339120,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:45:23**************************************************
+(554, b'MI:SPB UserReject 0,smtp12,EMCowADXWe9z8RZfo8rnNg--.33175S2 1595339123,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp12,EMCowADXWe9z8RZfo8rnNg--.33175S2 1595339123,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:45:27**************************************************
+(554, b'MI:SPB UserReject 0,smtp9,DcCowAAXRKF18RZfwoQGKQ--.27204S2 1595339127,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp9,DcCowAAXRKF18RZfwoQGKQ--.27204S2 1595339127,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:45:56**************************************************
+(554, b'MI:SPB UserReject 0,smtp10,DsCowAAHrPiU8RZfIS_nCA--.8236S2 1595339156,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp10,DsCowAAHrPiU8RZfIS_nCA--.8236S2 1595339156,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:45:58**************************************************
+(554, b'MI:SPB UserReject 0,smtp8,DMCowAAnamiW8RZfN2h3FA--.63516S2 1595339158,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp8,DMCowAAnamiW8RZfN2h3FA--.63516S2 1595339158,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:46:08**************************************************
+(554, b'MI:SPB UserReject 0,smtp9,DcCowACHlHSd8RZfn5UGKQ--.32170S2 1595339167,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp9,DcCowACHlHSd8RZfn5UGKQ--.32170S2 1595339167,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:46:33**************************************************
+(554, b'MI:SPB UserReject 0,smtp12,EMCowABnSPy48RZfpPLnNg--.20942S2 1595339192,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp12,EMCowABnSPy48RZfpPLnNg--.20942S2 1595339192,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:46:35**************************************************
+(554, b'MI:SPB UserReject 0,smtp9,DcCowAC3lfq58RZfE6EGKQ--.27456S2 1595339194,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp9,DcCowAC3lfq58RZfE6EGKQ--.27456S2 1595339194,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:46:46**************************************************
+(554, b'MI:SPB UserReject 0,smtp11,D8CowAB3m7jG8RZfulz1Bw--.58032S2 1595339206,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp11,D8CowAB3m7jG8RZfulz1Bw--.58032S2 1595339206,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:47:09**************************************************
+(554, b'MI:SPB UserReject 0,smtp8,DMCowADX59_c8RZf3IZ3FA--.10502S2 1595339229,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp8,DMCowADX59_c8RZf3IZ3FA--.10502S2 1595339229,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:47:10**************************************************
+(554, b'MI:SPB UserReject 0,smtp12,EMCowADX4wfe8RZfRQfoNg--.29514S2 1595339230,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp12,EMCowADX4wfe8RZfRQfoNg--.29514S2 1595339230,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:47:25**************************************************
+(554, b'MI:SPB UserReject 0,smtp9,DcCowACHWizr8RZfz7YGKQ--.28501S2 1595339244,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp9,DcCowACHWizr8RZfz7YGKQ--.28501S2 1595339244,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:47:44**************************************************
+(554, b'MI:SPB UserReject 0,smtp10,DsCowAD3v_MA8hZfl3jnCA--.6441S2 1595339264,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp10,DsCowAD3v_MA8hZfl3jnCA--.6441S2 1595339264,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:47:45**************************************************
+(554, b'MI:SPB UserReject 0,smtp10,DsCowADHRLEB8hZfTXnnCA--.46648S2 1595339265,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp10,DsCowADHRLEB8hZfTXnnCA--.46648S2 1595339265,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:48:03**************************************************
+(554, b'MI:SPB UserReject 0,smtp11,D8CowAB3t8sT8hZfmov1Bw--.1427S2 1595339283,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp11,D8CowAB3t8sT8hZfmov1Bw--.1427S2 1595339283,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:48:20**************************************************
+(554, b'MI:SPB UserReject 0,smtp12,EMCowABXGe8k8hZfpSzoNg--.33070S2 1595339300,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp12,EMCowABXGe8k8hZfpSzoNg--.33070S2 1595339300,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:48:20**************************************************
+(554, b'MI:SPB UserReject 0,smtp12,EMCowABnTwsk8hZfzCzoNg--.23608S2 1595339300,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp12,EMCowABnTwsk8hZfzCzoNg--.23608S2 1595339300,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:48:40**************************************************
+(554, b'MI:SPB UserReject 0,smtp8,DMCowABXHfY48hZfLbh3FA--.1434S2 1595339320,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp8,DMCowABXHfY48hZfLbh3FA--.1434S2 1595339320,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:48:56**************************************************
+(554, b'MI:SPB UserReject 0,smtp12,EMCowABnWh5H8hZfeT7oNg--.28792S2 1595339335,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp12,EMCowABnWh5H8hZfeT7oNg--.28792S2 1595339335,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:48:56**************************************************
+(554, b'MI:SPB UserReject 0,smtp12,EMCowADHpAhI8hZfnT7oNg--.20872S2 1595339336,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp12,EMCowADHpAhI8hZfnT7oNg--.20872S2 1595339336,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:49:18**************************************************
+(554, b'MI:SPB UserReject 0,smtp10,DsCowAAXh9te8hZfybznCA--.32132S2 1595339358,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp10,DsCowAAXh9te8hZfybznCA--.32132S2 1595339358,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 21:49:31**************************************************
+(554, b'MI:SPB UserReject 0,smtp12,EMCowAD35hJq8hZfQU_oNg--.29984S2 1595339371,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp12,EMCowAD35hJq8hZfQU_oNg--.29984S2 1595339371,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+####################2020-07-21 23:24:56软件log存储路径配置确认OK。####################
+**************************************************2020-07-21 23:25:05**************************************************
+(554, b'MI:SPB UserReject 0,smtp10,DsCowAAn9LDQCBdfp7T0CA--.49061S2 1595345104,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp10,DsCowAAn9LDQCBdfp7T0CA--.49061S2 1595345104,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 23:25:05**************************************************
+(554, b'MI:SPB UserReject 0,smtp10,DsCowAA3zPjRCBdfYLX0CA--.11412S2 1595345105,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp10,DsCowAA3zPjRCBdfYLX0CA--.11412S2 1595345105,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 23:25:07**************************************************
+(554, b'MI:SPB UserReject 0,smtp9,DcCowABX5pbRCBdfZuYPKQ--.34677S2 1595345106,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp9,DcCowABX5pbRCBdfZuYPKQ--.34677S2 1595345106,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 23:25:36**************************************************
+(554, b'MI:SPB UserReject 0,smtp10,DsCowADXr_PwCBdfVsv0CA--.11537S2 1595345136,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp10,DsCowADXr_PwCBdfVsv0CA--.11537S2 1595345136,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 23:25:47**************************************************
+(554, b'MI:SPB UserReject 0,smtp9,DcCowACX_LX5CBdfwvYPKQ--.28475S2 1595345146,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp9,DcCowACX_LX5CBdfwvYPKQ--.28475S2 1595345146,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 23:25:47**************************************************
+(554, b'MI:SPB UserReject 0,smtp7,C8CowAA3n5v7CBdfxX4zAg--.8078S2 1595345147,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp7,C8CowAA3n5v7CBdfxX4zAg--.8078S2 1595345147,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 23:26:09**************************************************
+(554, b'MI:SPB UserReject 0,smtp9,DcCowADn_mIQCRdf9f8PKQ--.28763S2 1595345168,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp9,DcCowADn_mIQCRdf9f8PKQ--.28763S2 1595345168,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 23:26:26**************************************************
+(554, b'MI:SPB UserReject 0,smtp8,DMCowAB3I9whCRdfwFWFFA--.14319S2 1595345186,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp8,DMCowAB3I9whCRdfwFWFFA--.14319S2 1595345186,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 23:26:27**************************************************
+(554, b'MI:SPB UserReject 0,smtp14,EsCowABnxrYjCRdftrObFQ--.50630S2 1595345187,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp14,EsCowABnxrYjCRdftrObFQ--.50630S2 1595345187,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 23:26:40**************************************************
+(554, b'MI:SPB UserReject 0,smtp11,D8CowABXBrswCRdfZ50CCA--.61116S2 1595345200,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp11,D8CowABXBrswCRdfZ50CCA--.61116S2 1595345200,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 23:27:06**************************************************
+(554, b'MI:SPB UserReject 0,smtp9,DcCowAD3jd5ICRdf1BkQKQ--.28752S2 1595345226,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp9,DcCowAD3jd5ICRdf1BkQKQ--.28752S2 1595345226,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 23:27:08**************************************************
+(554, b'MI:SPB UserReject 0,smtp12,EMCowAB3ZAhLCRdfc2zzNg--.23082S2 1595345228,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp12,EMCowAB3ZAhLCRdfc2zzNg--.23082S2 1595345228,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 23:27:12**************************************************
+(554, b'MI:SPB UserReject 0,smtp7,C8CowAAXX7NQCRdfzbMzAg--.17036S2 1595345232,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp7,C8CowAAXX7NQCRdfzbMzAg--.17036S2 1595345232,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 23:27:43**************************************************
+(554, b'MI:SPB UserReject 0,smtp10,DsCowABHn7VvCRdf4Bf1CA--.10160S2 1595345263,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp10,DsCowABHn7VvCRdf4Bf1CA--.10160S2 1595345263,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 23:27:46**************************************************
+(554, b'MI:SPB UserReject 0,smtp9,DcCowADn9_txCRdfjSkQKQ--.32649S2 1595345266,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp9,DcCowADn9_txCRdfjSkQKQ--.32649S2 1595345266,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 23:27:48**************************************************
+(554, b'MI:SPB UserReject 0,smtp8,DMCowADnVd50CRdfinSFFA--.591S2 1595345268,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp8,DMCowADnVd50CRdfinSFFA--.591S2 1595345268,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 23:28:16**************************************************
+(554, b'MI:SPB UserReject 0,smtp9,DcCowABXTZaPCRdfbTUQKQ--.50274S2 1595345295,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp9,DcCowABXTZaPCRdfbTUQKQ--.50274S2 1595345295,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 23:28:25**************************************************
+(554, b'MI:SPB UserReject 0,smtp7,C8CowAC336uZCRdf9+AzAg--.7945S2 1595345305,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp7,C8CowAC336uZCRdf9+AzAg--.7945S2 1595345305,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 23:28:29**************************************************
+(554, b'MI:SPB UserReject 0,smtp14,EsCowABXrcKdCRdfte+bFQ--.47226S2 1595345309,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp14,EsCowABXrcKdCRdfte+bFQ--.47226S2 1595345309,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy73@163.com', 'joyjoy73@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 23:31:07**************************************************
+[Errno 51] Network is unreachable
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 58, in sendEmail
+    smtpObj.connect(mail_host, hostport)    #qq:465,163:25
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/Users/hylan/anaconda3/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/Users/hylan/anaconda3/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+OSError: [Errno 51] Network is unreachable
+***********************************************************************************************************************
+**************************************************2020-07-21 23:31:13**************************************************
+(554, b'MI:SPB UserReject 0,smtp9,DcCowACH1Uk3ChdfOnsQKQ--.28721S2 1595345464,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp9,DcCowACH1Uk3ChdfOnsQKQ--.28721S2 1595345464,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joy7768@163.com', 'joy7768@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-21 23:31:10**************************************************
+(554, b'MI:SPB UserReject 0,smtp9,DcCowAD3QgQ9ChdfkX0QKQ--.28090S2 1595345470,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 60, in sendEmail
+    smtpObj.sendmail(sender, receivers, message.as_string())
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 867, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (554, b'MI:SPB UserReject 0,smtp9,DcCowAD3QgQ9ChdfkX0QKQ--.28090S2 1595345470,please feedback at http://feedback.mail.126.com/antispam/complain.php?user=joyjoy68@163.com', 'joyjoy68@163.com')
+***********************************************************************************************************************
+**************************************************2020-07-22 00:44:50**************************************************
+[Errno 50] Network is down
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 58, in sendEmail
+    smtpObj.connect(mail_host, hostport)    #qq:465,163:25
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/Users/hylan/anaconda3/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/Users/hylan/anaconda3/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+OSError: [Errno 50] Network is down
+***********************************************************************************************************************
+**************************************************2020-07-22 07:59:34**************************************************
+[Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 58, in sendEmail
+    smtpObj.connect(mail_host, hostport)    #qq:465,163:25
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/Users/hylan/anaconda3/lib/python3.6/socket.py", line 704, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/hylan/anaconda3/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+***********************************************************************************************************************
+**************************************************2020-07-22 09:43:09**************************************************
+[Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 58, in sendEmail
+    smtpObj.connect(mail_host, hostport)    #qq:465,163:25
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/Users/hylan/anaconda3/lib/python3.6/socket.py", line 704, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/hylan/anaconda3/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+***********************************************************************************************************************
+**************************************************2020-07-22 12:26:50**************************************************
+[Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 58, in sendEmail
+    smtpObj.connect(mail_host, hostport)    #qq:465,163:25
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/Users/hylan/anaconda3/lib/python3.6/socket.py", line 704, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/hylan/anaconda3/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+***********************************************************************************************************************
+**************************************************2020-07-22 12:26:53**************************************************
+[Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 58, in sendEmail
+    smtpObj.connect(mail_host, hostport)    #qq:465,163:25
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/Users/hylan/anaconda3/lib/python3.6/socket.py", line 704, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/hylan/anaconda3/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+***********************************************************************************************************************
+**************************************************2020-07-22 12:26:53**************************************************
+[Errno 8] nodename nor servname provided, or not known
+Traceback (most recent call last):
+  File "main.py", line 151, in <module>
+    Email_Custom.sendEmail(user.split('@')[-1],user_name,user,password,custom_subject,custom_content,touser,picture_attaches,pdf_attaches)
+  File "/Users/hylan/Desktop/办公工作/软件开发/邮件群发系统软件--项目/package/Email_Custom.py", line 58, in sendEmail
+    smtpObj.connect(mail_host, hostport)    #qq:465,163:25
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Users/hylan/anaconda3/lib/python3.6/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/Users/hylan/anaconda3/lib/python3.6/socket.py", line 704, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Users/hylan/anaconda3/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+***********************************************************************************************************************
+####################2020-08-21 10:45:52软件log存储路径配置确认OK。####################
+####################2020-08-21 10:58:06软件log存储路径配置确认OK。####################
